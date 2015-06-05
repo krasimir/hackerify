@@ -1,6 +1,7 @@
 # Hackerify
 
-~30 lines of JavaScript for stubbing Browserify modules
+* ~30 lines of JavaScript for stubbing Browserify modules
+* Defining the stubs in only one place. Works for modules required deeply in your app.
 
 ## Instalation
 
