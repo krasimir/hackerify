@@ -10,7 +10,9 @@
   },
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "browserify": "10.2.3"
+  },
   "keywords": [
     "browserify",
     "stub",

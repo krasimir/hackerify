@@ -39,3 +39,10 @@ Hackerify(arguments, {
 ```
 
 Notice the `arguments` variable. No, that's not a typo. When you use Browserify your code is put in a closure. So `arguments` is refering the arguments passed to that closure.
+
+## The example
+
+* Run `npm install`
+* Run `cd ./example`
+* Run `sh ./run.sh`
+* Open `./example/index.html` in a browser
