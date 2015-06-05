@@ -1,0 +1,26 @@
+{
+  "name": "hackerify",
+  "version": "1.0.0",
+  "description": "~30 lines of JavaScript for stubbing Browserify modules",
+  "main": "./index.js",
+  "author": {
+    "name": "Krasimir Tsonev",
+    "email": "info@krasimirtsonev.com",
+    "url": "http://krasimirtsonev.com"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "browserify",
+    "stub",
+    "mock",
+    "modules",
+    "require"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krasimir/hackerify.git"
+  },
+  "scripts": {}
+}
