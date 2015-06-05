@@ -1,0 +1,2 @@
+# hackerify
+Stubbing Browserify modules
