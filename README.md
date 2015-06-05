@@ -33,7 +33,7 @@ And you want to stub the function in `label.js`. All you have to do is adding th
 var Hackerify = require('hackerify');
 Hackerify(arguments, {
   './label': function() {
-    return 'Maybe it is: ';
+    return 'The answer is not always ';
   }
 });
 ```
