@@ -23,8 +23,8 @@ module.exports = function() {
 }
 
 // app.js
-var m = require('./module');
-console.log(m());
+var a = require('./answer');
+console.log(a());
 ```
 
 And you want to stub the function in `label.js`. All you have to do is adding the following code in `app.js`.
