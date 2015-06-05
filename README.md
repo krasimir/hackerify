@@ -38,4 +38,4 @@ Hackerify(arguments, {
 });
 ```
 
-Notice the `arguments` variable. No, that's not a typo. When you use Browserify your code is put on a closure. So `arguments` is refering the arguments passed to that closure.
+Notice the `arguments` variable. No, that's not a typo. When you use Browserify your code is put in a closure. So `arguments` is refering the arguments passed to that closure.
