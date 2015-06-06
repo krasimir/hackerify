@@ -31,19 +31,29 @@ console.log(a());
 And you want to stub the function in `label.js`. All you have to do is adding the following code in `app.js`.
 
 ```js
+// app.js
+
 var Hackerify = require('hackerify');
 Hackerify(arguments, {
   './label': function() {
     return 'The answer is not always ';
   }
 });
+
+var a = require('./answer');
+console.log(a());
 ```
 
 Notice the `arguments` variable. No, that's not a typo. When you use Browserify your code is put in a closure. So `arguments` is refering the arguments passed to that closure.
 
+## Testing
+
+* `npm install`
+* `npm test`
+
 ## The example
 
-* Run `npm install`
-* Run `cd ./example`
-* Run `sh ./run.sh`
+* `npm install`
+* `cd ./example`
+* `sh ./run.sh`
 * Open `./example/index.html` in a browser
