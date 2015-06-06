@@ -1,6 +1,6 @@
 {
   "name": "hackerify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "~30 lines of JavaScript for stubbing Browserify modules",
   "main": "./index.js",
   "author": {
